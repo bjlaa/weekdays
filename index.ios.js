@@ -1,11 +1,13 @@
 //Import some code we need
 
-var React = require('react-native');
+var React = require('react');
 var Moment = require('moment');
 var AppRegistry = React.AppRegistry;
-var View = React.View;
-var Text = React.Text;
-var StyleSheet = React.StyleSheet;
+var {
+	View,
+	Text,
+	StyleSheet
+} = require('react-native');
 var DayItem = require('./src/day-item');
 
 
